@@ -1,0 +1,95 @@
+/*
+	This box-sizing property helps adding border and padding property for any elements relative to width and height all elements.
+*/
+
+
+* {
+  box-sizing: border-box;
+
+  
+}
+
+/*
+	The body is given 100% width and height for 100% to control the width and height of other classes (resizing of Image class at the bottom)
+	Setting a background color and a fixed font size of 1 rem. 
+	Setting a font family 
+*/
+
+body{
+	
+	width: 100%;
+	height: 100%;
+	font-family: "Times New Roman", Times, serif;
+   background-color: #e0ffff;
+   font-size: 1rem;
+ 
+
+}
+
+/*
+	Creates a fixed banner at the top and also gives a background color for the banner. 
+	Used the position property to fix the banner at the top.
+*/
+nav {
+	overflow: hidden;
+	background-color: #C39BD3;
+	position: fixed;
+	padding-top: 0px;
+	top: 0;
+	width: 100%;
+}
+
+/*
+	The navigation buttons are given a certain color for easy identification. Also, the contents are sourrounded in a border-style.
+*/
+nav a{
+	
+	border-style: hidden;
+    display: block;
+    color: #9c0909;
+   	font-family: Arial, Helvetica, sans-serif;
+   	font-size: 1.5rem;
+
+    
+}
+/*
+	When user take  mouse cursor within banner section,
+	the color of the background of Navigation banner changes.
+*/
+.NavBar:hover {
+   background-color: rgb(100, 100, 100);
+
+}
+
+/*
+	Gives Image a suitable size. It will have a max width of 50% and auto height.
+*/
+.Image{
+	max-width: 50%;
+  height: auto;
+  
+}
+
+/*
+	Makes all the text aligned toward the center. 
+*/
+#ResumeIntro {
+	text-align: center;
+
+}
+
+/*
+	GIves relative font size of 2 rem, for the titles of each section (heading 2).
+	The headers are in box and have a background color. Where the border have a certain width all around it.
+*/
+h2  {
+	font-size: 2rem;
+  background-color: #ff66cc;
+  text-align: center;
+ border-style: solid;
+ border-width: 0.15rem;
+ 
+}
+
+
+
